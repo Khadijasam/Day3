@@ -15,18 +15,6 @@ namespace ConsoleApp6
         //    PrimeNum.CheckPrime(n);
         //}
 
-        static void Main(String[] args)
-        {
-            string sname="", scrs="";
-            int smrks=0, srno=0;
-            
-            Student.GetData();
-            Student.ShowData(sname, scrs, srno, smrks);
-            Console.ReadLine();
-            char grade = Student.CalGrade(smrks);
-            Console.Read();
-            //Student.ShowData(sname, scrs, srno, smrks, grade);
-            
-        }
+        
     }
 }
