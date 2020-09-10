@@ -45,7 +45,7 @@ namespace ConsoleApp6
             }
             return ('0');
         }
-        public static void ShowData(string name,string crs, int rno, int mrks)
+        public static void ShowData(string name,string crs, int rno, int mrks, char grade)
         {
             Console.WriteLine("name:{ 0}", name);
             Console.Read();
@@ -56,8 +56,8 @@ namespace ConsoleApp6
             Console.Read();
             Console.WriteLine("marks:{ 0}", mrks);
             Console.Read();
-            //Console.WriteLine("grade:{ 0}", grade);
-            //Console.Read();
+            Console.WriteLine("grade:{ 0}", grade);
+            Console.Read();
 
         }
 
